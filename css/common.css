@@ -1,0 +1,100 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	padding-top: 70px;
+	font-size: 1em;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+	font-family: "microsoft yahei";
+}
+
+ul,
+div {
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+.navbar-header>h1 {
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+.footer {
+	margin-bottom: 20px;
+
+}
+
+#btn {
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/bgmmusic.png);
+	/* background: url("") no-repeat; */
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	position: fixed;
+	top:60px;
+	left: 0.22rem;
+	z-index: 6666;
+}
+
+/* 整体布局开始 */
+.backgrounde1 {
+	background: url(../img/back1.png);
+	width: 100%;
+}
+
+.backgrounde3 {
+	background-color: #FFFFFF;
+	opacity: 0.8;
+	padding: 5px;
+}
+
+
+/* 整体布局结束 */
+/* 头部布局开始 */
+.collapse {
+	width: 55%;
+}
+
+/* 同步布局结束 */
+/* 尾部布局开始 */
+.bottom-bottom {
+	text-align: center;
+	color: #dbf9ff;
+}
+
+.bottom-bottom .bottom1 {}
+
+.bottom-bottom hr {
+	margin: 10px auto;
+	height: 1px;
+	background-image: linear-gradient(to right,
+			rgba(255, 255, 255, 0),
+			cyan,
+			rgba(0, 0, 0, 0));
+}
+
+/* 尾部布局结束 */
